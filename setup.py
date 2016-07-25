@@ -40,10 +40,10 @@
 from setuptools import setup
 
 __plugin_name__ = "PIAPortForward"
-__author__ = "Lee Nguyen"
-__author_email__ = "fake.me.now.and.forever@gmail.com"
-__version__ = "1.0"
-__url__ = ""
+__author__ = "JesterEE, Lee Nguyen"
+__author_email__ = "dev@jesteree.33mail.com, fake.me.now.and.forever@gmail.com"
+__version__ = "1.1"
+__url__ = "github.com/JesterEE/PIAPortForward"
 __license__ = "GPLv3"
 __description__ = "Opens listening port on PIA VPN Server"
 __long_description__ = """"""
