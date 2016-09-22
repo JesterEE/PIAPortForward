@@ -13,7 +13,9 @@ ____
 * Refresh button to force update
 * Better logging
 * Socket debugging and error checking
+* Modern Mode and Webui settings
 * Platform (Win/Mac/Linux) and VPN software (PIA Manager/OpenVPN) checking
+
 ____
 
 * Branch to new project
