@@ -3,14 +3,17 @@ This is a Deluge plugin for Private Internet Access (PIA) users.  This plugin wi
 
 In order for this plugin to work, you will need to provide your PIA account username and password in the plugin options.  Unfortunately, this is inherently unsafe because it leaves your password exposed in plain text on your system.  I can obfuscate the password if there are any requests to do so.  But, this is again inherently insecure.
 
+<b>Current Issues</b>
+ * Functionality is spotty. I have seen an issue with the `fast_check` method when calling the `get_active_local_ip` method.  This is probbaly due to my patch, but has not been investigated further.  Debugging needed.
+
 <b>JesterEE TODO:</b>
 ____
 * Obfuse credentials in code and don't store in the clear
 * Peek button for credentials in the GUI
+* Refresh button to force update
 * Better logging
 * Socket debugging and error checking
 * Platform (Win/Mac/Linux) and VPN software (PIA Manager/OpenVPN) checking
-
 ____
 
 * Branch to new project
